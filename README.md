@@ -1,8 +1,8 @@
-<br /><br /><br />
+<br /><br />
 <p align="center">
   <img width="600" src="assets/icon.png" />
 </p>
-<br /><br />
+<br />
 
 # modbus-browser
 A Modbus TCP browser application as a command-line client.

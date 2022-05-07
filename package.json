@@ -1,0 +1,43 @@
+{
+  "name": "modbus-browser",
+  "version": "1.0.0",
+  "description": "🔦 A Modbus TCP browser application as a command-line client.",
+  "main": "modbus-browser.js",
+  "bin": {
+    "modbus-browser": "modbus-browser.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HQarroum/modbus-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HQarroum/modbus-server/issues"
+  },
+  "keywords": [
+    "modbus",
+    "modbus-tcp",
+    "industrial-iot"
+  ],
+  "author": "Halim Qarroum <hqm.post@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bitwise": "^2.1.0",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.11.0",
+    "chalk": "^3.0.0",
+    "commander": "^4.1.1",
+    "hexdump-nodejs": "^0.1.0",
+    "jsmodbus": "^4.0.6",
+    "lodash": "^4.17.21",
+    "middleware-chain-js": "^1.0.9",
+    "signale": "^1.4.0",
+    "update-notifier": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0"
+  }
+}

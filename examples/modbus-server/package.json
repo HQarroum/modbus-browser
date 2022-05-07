@@ -1,0 +1,18 @@
+{
+  "name": "modbus-server",
+  "version": "1.0.0",
+  "description": "A sample modbus simulation server.",
+  "main": "modbus-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "modbus",
+    "server"
+  ],
+  "author": "Halim Qarroum <hqm.post@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsmodbus": "^4.0.6"
+  }
+}
